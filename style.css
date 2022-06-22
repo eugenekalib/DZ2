@@ -1,0 +1,69 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.test{
+    font-size: large;
+}
+.mainblock {
+    #border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: medium;
+}
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myButton {
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border-radius: 1.5em;
+    background-color: hsl(182, 98%, 80%);
+    border: 1px solid black;
+    cursor: pointer;
+}
+.myButtonPink {
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border-radius: 1.5em;
+    background-color: hsl(318, 98%, 80%);
+    border: 1px solid black;
+    cursor: pointer;
+}
+.myButtonBack {
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border-radius: 1.5em;
+    background-color: red;
+    border: 1px solid black;
+    cursor: pointer;
+}
+input {
+    font-size: large;
+}
+.name {
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 1.5em;
+    text-align: center;
+}
+.hello {
+    margin-top: 50px;
+    width: 150px;
+    height: 60px;
+    border: 1px solid sienna;
+    border-radius: 1.5em;
+    background-color: darkgreen;
+    color: bisque;
+    cursor: pointer;
+}
